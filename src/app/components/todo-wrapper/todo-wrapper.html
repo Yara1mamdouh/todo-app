@@ -1,0 +1,11 @@
+<div class="todo-wrapper">
+
+<app-todo-form
+  (addTodo)="addTask($event)">
+</app-todo-form>
+
+<app-todo-list
+  [todos]="todos">
+</app-todo-list>
+
+</div>
